@@ -1025,6 +1025,11 @@ div.owl-theme .owl-dots .owl-dot.active {
     color: #999;
 }
 
+.blog .card-body h4:hover {
+    color: var(--green);
+}
+
+
 .blog .card-body h4 {
     display: block;
     font-size: 20px;
@@ -1032,6 +1037,7 @@ div.owl-theme .owl-dots .owl-dot.active {
     font-weight: 600;
     color: var(--heading-color);
     margin-top: 10px;
+    transition: all 0.5s;
 }
 
 .blog .card-footer {
@@ -1065,8 +1071,13 @@ div.owl-theme .owl-dots .owl-dot.active {
     font-weight: 600;
     line-height: 26px;
     text-transform: capitalize;
+    transition: all 0.5s;
 }
 
+.blog .card-footer .author ul li a:hover {
+    color: var(--green);
+    text-decoration: none;
+}
 .blog .card-footer .author .date {
     color: #666;
     font-size: 15px;
