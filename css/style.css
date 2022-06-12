@@ -138,6 +138,10 @@ header.nav-fixed .navbar-brand {
     color: var(--heading-color);
 }
 
+.navbar .navbar-brand:hover {
+    color: var(--heading-color);
+}
+
 .navbar .navbar-brand .logo {
     font-size: 15px;
     text-transform: none;
